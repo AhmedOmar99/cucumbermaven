@@ -12,7 +12,7 @@ import static steps.KeycloakRestAssuredSSOLoginAutomation.performSSOLogin;
 public class CollectionOrders {
 
     private static final String PORTAL_BASE_URL = "https://emoney-portal-fintech-dev.maxdev.org/emoney/api/v1";
-    private static String accessToken = performSSOLogin();
+    private static final String accessToken = performSSOLogin();
     int coID = 15559;
 
     @Given("User is authorized with credentials")
